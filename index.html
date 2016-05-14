@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <title>PuntaJS - Calculadora</title>
+    <link rel="stylesheet" href="/lib/foundation/css/foundation.css">
+  </head>
+  <body>
+    <style>
+      .center{text-align: center}
+      .blank{opacity: 0}
+    </style>
+    <section id="calculadora">
+      <div class="calculadora-container">
+        <div class="screen callout secondary small">
+          <input type="text" id="input" readonly/>
+        </div>
+        <div class="teclas center">
+          <div class="row">
+            <div class="small-3 columns blank">
+              <div>.</div>
+            </div>
+            <div class="small-3 columns blank">
+              <div>.</div>
+            </div>
+            <div class="small-3 columns blank">
+              <div>.</div>
+            </div>
+            <div class="small-3 columns">
+              <button value="AC" class="button expanded alert">AC</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-3 columns">
+              <button value="7" class="button expanded">7</button>
+            </div>
+            <div class="small-3 columns">
+              <button value="8" class="button expanded">8</button>
+            </div>
+            <div class="small-3 columns">
+              <button value="9" class="button expanded">9</button>
+            </div>
+            <div class="small-3 columns">
+              <button value="÷" class="button expanded secondary">÷</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-3 columns">
+              <button value="4" class="button expanded">4</button>
+            </div>
+            <div class="small-3 columns">
+              <button value="5" class="button expanded">5</button>
+            </div>
+            <div class="small-3 columns">
+              <button value="6" class="button expanded">6</button>
+            </div>
+            <div class="small-3 columns">
+              <button value="X" class="button expanded secondary">X</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-3 columns">
+              <button value="1" class="button expanded">1</button>
+            </div>
+            <div class="small-3 columns">
+              <button value="2" class="button expanded">2</button>
+            </div>
+            <div class="small-3 columns">
+              <button value="3" class="button expanded">3</button>
+            </div>
+            <div class="small-3 columns">
+              <button value="-" class="button expanded secondary">-</button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="small-3 columns">
+              <button value="0" class="button expanded">0</button>
+            </div>
+            <div class="small-3 columns blank">
+              <div>.</div>
+            </div>
+            <div class="small-3 columns">
+              <button value="=" class="button expanded success">=</button>
+            </div>
+            <div class="small-3 columns">
+              <button value="+" class="button expanded secondary">+</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script type="text/javascript" src="/build/bundle.js"></script>
+  </body>
+</html>
