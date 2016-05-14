@@ -9,11 +9,11 @@ class Pantalla {
     this.esResultado = false;
   }
 
-  impreso() {
+  /*impreso() {
     return this.valor || '';
-  }
+  }*/
 
-  imprimir(valor) {
+  /*imprimir(valor) {
     if (!this.esResultado || !(/^[0-9]$/).test(valor)) {
       this.valor = this.pantalla.value = (this.valor || '') + valor;
       this.esResultado = false;
@@ -21,16 +21,16 @@ class Pantalla {
       this.valor = this.pantalla.value = valor;
       this.esResultado = !this.esResultado;
     }
-  }
+  }*/
 
-  borrar() {
+  /*borrar() {
     this.valor = this.pantalla.value = '';
-  }
+  }*/
 
-  resultado() {
+  /*resultado() {
     this.valor = this.pantalla.value = Calculadora.calcular(this.pantalla.value);
     this.esResultado = !this.esResultado;
-  }
+  }*/
 }
 
 export default new Pantalla();
