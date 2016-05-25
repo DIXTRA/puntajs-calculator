@@ -5,5 +5,5 @@ import Pantalla from './pantalla';
 import Teclado from './teclado';
 
 window.onload = () => {
-  //Teclado.init();
+  Teclado.init();
 }
