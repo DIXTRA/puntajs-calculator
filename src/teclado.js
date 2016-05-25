@@ -22,11 +22,11 @@ class Teclado {
     });
   }
 
-  /*oprimir(valor) {
+  oprimir(valor) {
     this.analizar(valor);
-  }*/
+  }
 
-  /*analizar(valor) {
+  analizar(valor) {
     const impreso = Pantalla.impreso()
       , ultimo = impreso.slice(-1);
 
@@ -53,7 +53,7 @@ class Teclado {
     } else {
       Pantalla.imprimir(valor);
     }
-  }*/
+  }
 }
 
 export default new Teclado();
