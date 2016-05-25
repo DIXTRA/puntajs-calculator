@@ -3,32 +3,32 @@
 class Calculadora {
   constructor() {}
 
-  /*suma(datos) {
+  suma(datos) {
     return datos.reduce((valorAnterior, valorActual) => {
       return parseInt(valorAnterior) + parseInt(valorActual);
     }).toString();
-  }*/
+  }
 
-  /*resta(datos) {
+  resta(datos) {
     return datos.reduce((valorAnterior, valorActual) => {
       return parseInt(valorAnterior) - parseInt(valorActual);
     }).toString();
-  }*/
+  }
 
-  /*multiplicacion(datos) {
+  multiplicacion(datos) {
     return datos.reduce((valorAnterior, valorActual) => {
       return parseInt(valorAnterior) * parseInt(valorActual);
     }).toString();
-  }*/
+  }
 
-  /*division(datos) {
+  division(datos) {
     return datos.reduce((valorAnterior, valorActual) => {
       return parseInt(valorAnterior) / parseInt(valorActual);
     }).toString();
-  }*/
+  }
 
   calcular(datos) {
-    /*switch (true) {
+    switch (true) {
       case (/X/).test(datos):
         return this.multiplicacion(datos.split('X'));
         break;
@@ -41,7 +41,7 @@ class Calculadora {
       case (/\-/).test(datos):
         return this.resta(datos.split('-'));
         break;
-    }*/
+    }
   }
 }
 
